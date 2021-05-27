@@ -7,11 +7,7 @@ public class Ex05 {
 		for (int dan=1; dan<=9; dan++) {
 			
 			for (int i=1; i<=9;i++) {
-				int result = dan * i;
-				System.out.println(dan+"*"+i+"="+result);
-				if(i==10) {
-					dan++;
-					i=1;
+				System.out.println(dan+"*"+i+"="+dan*i);
 				}
 			}
 
@@ -21,5 +17,3 @@ public class Ex05 {
 			
 		}
 	}
-
-}
